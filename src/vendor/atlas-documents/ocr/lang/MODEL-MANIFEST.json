@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/tesseract-ocr/tessdata_fast",
+  "commit": "87416418657359cb625c412a48b6e1d6d41c29bd",
+  "files": [
+    {
+      "file": "eng.traineddata.gz",
+      "bytes": 1962155,
+      "sha256": "b130d16b69e3888bc099133991a50a5b50e1da0e3ff6ca31a5496fab0fb386c3",
+      "source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/eng.traineddata"
+    },
+    {
+      "file": "ind.traineddata.gz",
+      "bytes": 607367,
+      "sha256": "77f5b42d0c0f6392126808dee2d5ed9c2a9b3ffb9f710a7aa28e94cd8996e86d",
+      "source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/ind.traineddata"
+    },
+    {
+      "file": "LICENSE",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "source": "https://raw.githubusercontent.com/tesseract-ocr/tessdata_fast/87416418657359cb625c412a48b6e1d6d41c29bd/LICENSE"
+    }
+  ]
+}
