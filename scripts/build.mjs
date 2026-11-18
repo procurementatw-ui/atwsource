@@ -8,18 +8,17 @@ const out = path.join(root, 'public');
 
 function required(file) {
   if (!fs.existsSync(file)) {
-    throw new Error(`Required file not found: ${file}`);
+    throw new Error(`Required file missing: ${file}`);
   }
 }
 
-required(src);
 required(path.join(src, 'application.html'));
-required(path.join(src, 'index.html'));
 required(path.join(src, 'launcher.js'));
 
 fs.rmSync(out, { recursive: true, force: true });
 fs.mkdirSync(out, { recursive: true });
 
+// Copy source assets, scripts, vendor files and application files.
 function copyDirectory(source, destination) {
   fs.mkdirSync(destination, { recursive: true });
 
@@ -37,15 +36,20 @@ function copyDirectory(source, destination) {
   }
 }
 
-// Copy application assets and files.
 copyDirectory(src, out);
 
-// Keep login/launcher page as the root entry point.
+// Use the application as the root page.
+// Keep application.html available as a separate route too.
 fs.copyFileSync(
-  path.join(src, 'index.html'),
+  path.join(src, 'application.html'),
+  path.join(out, 'application.html')
+);
+
+fs.copyFileSync(
+  path.join(src, 'application.html'),
   path.join(out, 'index.html')
 );
 
 console.log('ATW Source build completed.');
-console.log('Login page: public/index.html');
-console.log('Application: public/application.html');
+console.log('Application source: src/application.html');
+console.log('Published: public/index.html and public/application.html');
