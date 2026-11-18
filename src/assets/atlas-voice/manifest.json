@@ -1,0 +1,789 @@
+{
+  "runtime": "Embedded MP3 playback; no online speech requests",
+  "containsBusinessData": false,
+  "clips": [
+    {
+      "key": "hello",
+      "language": "en",
+      "text": "Hi! I'm Atlas. Your little helper in ATW Source. What shall we do first?",
+      "file": "en-hello.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 51120,
+      "sha256": "090b57fd608a1cd5ebe59d1fb7602cb215237b49b5b62873164b1a8b2e1e1868"
+    },
+    {
+      "key": "ready",
+      "language": "en",
+      "text": "Ready when you are! What would you like a hand with?",
+      "file": "en-ready.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 25632,
+      "sha256": "0f907717bb515a44958495aea196facdbfaabb038385d492192d2f83191da136"
+    },
+    {
+      "key": "question",
+      "language": "en",
+      "text": "Go ahead, I'm listening. You can type your own question here.",
+      "file": "en-question.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 30240,
+      "sha256": "983775301dc4a0cb549ec5f3e5d1afd2824e782d59193435c86af29cbf746639"
+    },
+    {
+      "key": "choose",
+      "language": "en",
+      "text": "Let's find the right starting point. Are you from ATW Group, or are you a vendor?",
+      "file": "en-choose.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 38160,
+      "sha256": "738ff015fc66563c70373a9170063c42576f143fb0cff9743e9604bcee58ed22"
+    },
+    {
+      "key": "employee",
+      "language": "en",
+      "text": "Welcome! I can guide your requests, item codes, prices and budgets. Which one do you need?",
+      "file": "en-employee.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 48816,
+      "sha256": "f21d78a33d0068693bbb68cc1a05575f111b5e52721a30cca65428c6b45230a3"
+    },
+    {
+      "key": "vendor",
+      "language": "en",
+      "text": "Welcome! I can help with registration, quotations, documents and order progress. Where shall we start?",
+      "file": "en-vendor.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 52704,
+      "sha256": "5d438bbd451ea445e90f6090acdf34d419ca185b70a0bbbb44cf89c0febe41c7"
+    },
+    {
+      "key": "registration",
+      "language": "en",
+      "text": "Let's get your registration ready. Choose your company profile, then follow the matching document list.",
+      "file": "en-registration.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 43344,
+      "sha256": "0395114e77826ca301d74b7520d09fbd0b721116adefbc14839a2da5eca93cf2"
+    },
+    {
+      "key": "login",
+      "language": "en",
+      "text": "Use your registered email to continue. I'll guide you from there.",
+      "file": "en-login.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 30816,
+      "sha256": "10675fac26a4811d7e7d05c5a7ffe0bfe1056c3185accaf32d65d60c532c98b3"
+    },
+    {
+      "key": "ticket",
+      "language": "en",
+      "text": "Let's prepare your request. Choose its category, complete the required fields, then review it before submitting.",
+      "file": "en-ticket.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 48528,
+      "sha256": "ef816cdab8f44c1e4f938678c2647ebec5765181e088fbcb5d5b5d37ba65fcc5"
+    },
+    {
+      "key": "itemcode",
+      "language": "en",
+      "text": "Start with the item catalogue. If the right code isn't there, I can guide a new request.",
+      "file": "en-itemcode.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 38880,
+      "sha256": "4135606c4a13e11ce8bf66a1be6a51546ae3f9a00d9af1827247ebf23f7b2279"
+    },
+    {
+      "key": "prices",
+      "language": "en",
+      "text": "Let's check the recorded prices first. That gives us a useful starting point.",
+      "file": "en-prices.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 36432,
+      "sha256": "afc4e82b1cdd8e7ce25557cb82a0367a65a1f878c1b6b64dbca7bcf841dac91b"
+    },
+    {
+      "key": "budget",
+      "language": "en",
+      "text": "Let's build your budget together. Choose the purpose, review the work items, then confirm the quantities and prices.",
+      "file": "en-budget.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 48672,
+      "sha256": "0a22a1689ddb2c9f26d8e2b090d60b529fc4e80ea00acf59baa7be78e727a4de"
+    },
+    {
+      "key": "division",
+      "language": "en",
+      "text": "Let's look at your division's follow-ups and choose what needs attention first.",
+      "file": "en-division.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 28368,
+      "sha256": "c18d5508fdf2796c1c6530a9896d58974589dd5a5b207db185f4a98aca13a2ca"
+    },
+    {
+      "key": "quote",
+      "language": "en",
+      "text": "Open an RFQ invitation for your company. Check the scope, prices and documents before sending your quotation.",
+      "file": "en-quote.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 48384,
+      "sha256": "fab1f6b1615d541382f7bed8922c7e2a41ec33b650fab5eab635a4cf2c0fefcf"
+    },
+    {
+      "key": "invoice",
+      "language": "en",
+      "text": "Let's check the invoice and its supporting documents against the linked order.",
+      "file": "en-invoice.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 29232,
+      "sha256": "b2ee6d124a453faa06d2577f1087a12948d1bac063beca97ee4785cf975c04ab"
+    },
+    {
+      "key": "tracking",
+      "language": "en",
+      "text": "Use a recorded request or order number. We'll follow the journey and see what's next.",
+      "file": "en-tracking.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 37728,
+      "sha256": "ba736fc7d4187d9be7b9a3e480b7bec9e26dca40d6b565762a2972e28fb06e7c"
+    },
+    {
+      "key": "approval",
+      "language": "en",
+      "text": "I'll help you review the next step. The authorized approver makes the final decision in ATW Source.",
+      "file": "en-approval.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 45072,
+      "sha256": "d672feb82022d0a87603f105a0eecbe8b80999b4b755b426899dc703293923ba"
+    },
+    {
+      "key": "wbs",
+      "language": "en",
+      "text": "For a confidential report, use the reporting form and keep the reference and access code safely.",
+      "file": "en-wbs.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 37728,
+      "sha256": "d2c7789459317020c5a3d41e7be2374edcd0433d387818447d71c1f210bb85ee"
+    },
+    {
+      "key": "summaryPending",
+      "language": "en",
+      "text": "The summary is ready. There are follow-ups to review. Shall we start with the first one?",
+      "file": "en-summaryPending.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 41184,
+      "sha256": "b0dbb513e01b242daa8973a8da3b54b56c7f65376d4cbee4cfb1fbcb74a96773"
+    },
+    {
+      "key": "summaryClear",
+      "language": "en",
+      "text": "No outstanding follow-ups on this page. What would you like to work on next?",
+      "file": "en-summaryClear.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 35424,
+      "sha256": "0d3b153a284a72da87b35efa831ede0933f901420f76b628d4a59cd63f7d18cc"
+    },
+    {
+      "key": "budgetMissing",
+      "language": "en",
+      "text": "The budget structure is ready. Some prices still need confirmation. Let's check them together.",
+      "file": "en-budgetMissing.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 46080,
+      "sha256": "c50e4b7bda19bf15acb7a5cfe62150697e9abf64596b7c1948c73b05d533e48b"
+    },
+    {
+      "key": "budgetReady",
+      "language": "en",
+      "text": "The budget review is ready. Let's look at lead times, procurement priorities and possible bottlenecks.",
+      "file": "en-budgetReady.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 45648,
+      "sha256": "aad07f6c5bdc3371a635385caf08bbc7ac13c0637bcfbcbe7241434703e5e952"
+    },
+    {
+      "key": "documentIssues",
+      "language": "en",
+      "text": "The document review is ready. A few points need attention. Shall we check the findings?",
+      "file": "en-documentIssues.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 43344,
+      "sha256": "7ba8fbce0620b0dc66b9673521f6d60178b8b64f262a0ceafe3410b238f9daf3"
+    },
+    {
+      "key": "documentReady",
+      "language": "en",
+      "text": "The document summary is ready. Let's compare it with the linked requirements.",
+      "file": "en-documentReady.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 34272,
+      "sha256": "1fe98793ec6d3def150332a8ebfb1c00ac677174bcab6c9f7a876601de37217f"
+    },
+    {
+      "key": "reply",
+      "language": "en",
+      "text": "I've put the answer here for you. Take a look, then choose where you'd like to go next.",
+      "file": "en-reply.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 36432,
+      "sha256": "81e5e7130978c6027ca7d8a4e4685caace4cd5956896c376b3c7bbbcb1a6c9f7"
+    },
+    {
+      "key": "error",
+      "language": "en",
+      "text": "Let's pause for a moment. There's something to fix before we continue.",
+      "file": "en-error.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 32544,
+      "sha256": "85ff477276c316fc97b4df8a6f88a71d03784983d99652be85cd36a3114c0739"
+    },
+    {
+      "key": "taskDone",
+      "language": "en",
+      "text": "All set for this step! What shall we check next?",
+      "file": "en-taskDone.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 27072,
+      "sha256": "4098889e6c02e2c2b2c28ca47cf61a1d32d7288feaa981092c717a7f52a815cc"
+    },
+    {
+      "key": "saved",
+      "language": "en",
+      "text": "Saved! You can review it now, or come back to it later.",
+      "file": "en-saved.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 30672,
+      "sha256": "4bd5ad871c5c647f5ccb5898bac21bcd41a7817de9b172a5b59c3310ce214634"
+    },
+    {
+      "key": "language",
+      "language": "en",
+      "text": "We'll continue in English. What would you like to do first?",
+      "file": "en-language.mp3",
+      "voice": "en-US-AriaNeural",
+      "bytes": 27936,
+      "sha256": "192078cd7bdc650b423e4c7b32cab7a700c2a9f972c67e9e5e414093fb5c2a38"
+    },
+    {
+      "key": "hello",
+      "language": "id",
+      "text": "Hai! Aku Atlas, teman kerjamu di ATW Source. Mau kita mulai dari mana?",
+      "file": "id-hello.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 53424,
+      "sha256": "e9c8b6ddb94bc64952214356f2db17b8dfbd96863e7c292fff915b171695a262"
+    },
+    {
+      "key": "ready",
+      "language": "id",
+      "text": "Siap menemani! Ada yang mau kita kerjakan bareng?",
+      "file": "id-ready.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 31536,
+      "sha256": "5961107afa27f544237238aead93adf35a2fe82fc311936500c5c1dd9a442bb4"
+    },
+    {
+      "key": "question",
+      "language": "id",
+      "text": "Boleh! Tulis saja pertanyaanmu di sini. Aku bantu, ya.",
+      "file": "id-question.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 44640,
+      "sha256": "0061c72ffdf51461d884e2784f3bf1af061ab18105132463b5be3b49f8f64a2a"
+    },
+    {
+      "key": "choose",
+      "language": "id",
+      "text": "Kita mulai dari sini, ya. Kamu dari tim ATW Group, atau vendor?",
+      "file": "id-choose.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 43056,
+      "sha256": "4675ff4c6324aed65927f4621b1d56d2b3ac85726362cbd499807776515917d2"
+    },
+    {
+      "key": "employee",
+      "language": "id",
+      "text": "Halo, tim ATW! Aku bisa bantu pandu permintaan, kode item, harga, dan anggaran. Mau yang mana dulu?",
+      "file": "id-employee.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 73296,
+      "sha256": "0d8d6e1051ab900c1cf45f2d75b16d84566b65c52bb2142d9f10d0516a4302d4"
+    },
+    {
+      "key": "vendor",
+      "language": "id",
+      "text": "Halo! Aku bisa bantu pendaftaran, penawaran, dokumen, dan progres pesanan. Kita mulai dari mana?",
+      "file": "id-vendor.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 65952,
+      "sha256": "58a0aac0328d4ed1ccde7dc30a768bbee356552f4f242953ebfacef9fd0f6dd3"
+    },
+    {
+      "key": "registration",
+      "language": "id",
+      "text": "Yuk, siapkan pendaftarannya. Pilih profil usaha dulu, lalu lengkapi dokumen yang sesuai.",
+      "file": "id-registration.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 51552,
+      "sha256": "425c62dc8f4beb4434b225859a35929f8d6ef64c0078fa7c11c1002cd694ef34"
+    },
+    {
+      "key": "login",
+      "language": "id",
+      "text": "Pakai email yang sudah terdaftar untuk masuk, ya. Nanti aku bantu langkah berikutnya.",
+      "file": "id-login.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 47808,
+      "sha256": "ca968aced85cf61bfa320e4a4a272d01d7a50fce5627721ae0fa11194247083a"
+    },
+    {
+      "key": "ticket",
+      "language": "id",
+      "text": "Yuk, siapkan permintaannya. Pilih kategori, lengkapi kolom wajib, lalu periksa sebelum dikirim.",
+      "file": "id-ticket.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 57024,
+      "sha256": "e683d42dedb486d72e343b4ccdff3f6e9fbea5aada67f8cd27ee80e180363dda"
+    },
+    {
+      "key": "itemcode",
+      "language": "id",
+      "text": "Cek katalog item dulu, ya. Kalau kodenya belum ada, aku bantu pandu permintaan kode baru.",
+      "file": "id-itemcode.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 52848,
+      "sha256": "29a636a630f9b774ba433f34ed1c61f358dc99d0adf595a8dca9afbbd9b680d6"
+    },
+    {
+      "key": "prices",
+      "language": "id",
+      "text": "Kita cek riwayat harga dulu, yuk. Biar ada acuan sebelum lanjut.",
+      "file": "id-prices.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 38592,
+      "sha256": "28330564e8948e4b9fd3425178cb7123288f2c688033b48c91f389c8d4409ffe"
+    },
+    {
+      "key": "budget",
+      "language": "id",
+      "text": "Yuk, susun anggarannya bareng. Pilih kebutuhan, periksa daftar pekerjaan, lalu cocokkan jumlah dan harganya.",
+      "file": "id-budget.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 61776,
+      "sha256": "c4a5af97892307f13c18fd606a807a0e32683a5619466afb4b0053b87914d0a4"
+    },
+    {
+      "key": "division",
+      "language": "id",
+      "text": "Kita lihat tindak lanjut divisinya, yuk. Pilih yang paling perlu dikerjakan dulu.",
+      "file": "id-division.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 43056,
+      "sha256": "a3806b8a242d5bd883e32bccdedf26e33c3d9f74d63e6300071d562d937a376d"
+    },
+    {
+      "key": "quote",
+      "language": "id",
+      "text": "Buka undangan RFQ untuk perusahaanmu, ya. Cek lingkup, harga, dan dokumen sebelum mengirim penawaran.",
+      "file": "id-quote.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 61632,
+      "sha256": "261556cf236b1a328e0c8061026cd2dd3a0a0bf1922dfabda5f4f6c4cc88451e"
+    },
+    {
+      "key": "invoice",
+      "language": "id",
+      "text": "Yuk, cocokkan invoice dan dokumen pendukungnya dengan pesanan terkait.",
+      "file": "id-invoice.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 34128,
+      "sha256": "040507031cc56c197d090d78a19a414a7581b4ea41415f20f8971161d3216d81"
+    },
+    {
+      "key": "tracking",
+      "language": "id",
+      "text": "Pakai nomor permintaan atau pesanan yang tercatat, ya. Kita lihat progres dan langkah berikutnya.",
+      "file": "id-tracking.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 50832,
+      "sha256": "45c37cab3a76a69402bf3fbcdb67d5abcd5ff278e72e8febdad3bacbd1fd600e"
+    },
+    {
+      "key": "approval",
+      "language": "id",
+      "text": "Aku bantu cek langkah berikutnya, ya. Keputusan persetujuan tetap dari pejabat yang berwenang di ATW Source.",
+      "file": "id-approval.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 56016,
+      "sha256": "38286a9cbbd469be510d3a5d579daece74d7547080ef758aee71097cd18e44c6"
+    },
+    {
+      "key": "wbs",
+      "language": "id",
+      "text": "Untuk laporan rahasia, gunakan formulir pelaporan, ya. Simpan nomor referensi dan kode aksesnya baik-baik.",
+      "file": "id-wbs.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 59904,
+      "sha256": "c10ad10368288f12b4c197c99d4818fe4983cf801982b7d5a587062f243aee38"
+    },
+    {
+      "key": "summaryPending",
+      "language": "id",
+      "text": "Ringkasannya sudah siap. Ada tindak lanjut yang perlu dicek. Mau kita buka yang pertama?",
+      "file": "id-summaryPending.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 50112,
+      "sha256": "eb0035e38b3c25cccbe805a5e0801267b8fb8e1d497f1a1f8a5975bcffe04b9a"
+    },
+    {
+      "key": "summaryClear",
+      "language": "id",
+      "text": "Tidak ada tindak lanjut tertunda di halaman ini. Mau lanjut ke pekerjaan yang mana?",
+      "file": "id-summaryClear.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 43344,
+      "sha256": "96b527c9eaa564d2d7c77a547ff76aefc99cdca54f5048e1aec1b4aa510d6056"
+    },
+    {
+      "key": "budgetMissing",
+      "language": "id",
+      "text": "Struktur anggarannya sudah siap. Masih ada harga yang perlu dilengkapi. Kita cek satu per satu, yuk.",
+      "file": "id-budgetMissing.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 57744,
+      "sha256": "ebb1ada38d410beb647ea95ef2aad15b4ec611b98de2fb25aefd005f8f0f977e"
+    },
+    {
+      "key": "budgetReady",
+      "language": "id",
+      "text": "Ulasan anggarannya sudah siap. Yuk, lihat waktu pengadaan, prioritas, dan potensi hambatannya.",
+      "file": "id-budgetReady.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 57744,
+      "sha256": "6d079880919713fe56b588019559336aabae1733edbf6f809c75a90f363d02f2"
+    },
+    {
+      "key": "documentIssues",
+      "language": "id",
+      "text": "Hasil cek dokumennya sudah siap. Ada beberapa hal yang perlu diperiksa. Mau kita lihat temuannya?",
+      "file": "id-documentIssues.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 54576,
+      "sha256": "02cc63f92a674371962d5ecee4e552c6c96f7fceeb64d60f81775c0b75efd777"
+    },
+    {
+      "key": "documentReady",
+      "language": "id",
+      "text": "Ringkasan dokumennya sudah siap. Yuk, cocokkan dengan persyaratan yang terkait.",
+      "file": "id-documentReady.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 41472,
+      "sha256": "06383bf6ca949a820250d75f3adecba1d854b4264b34fb7737259c6c03ba1f07"
+    },
+    {
+      "key": "reply",
+      "language": "id",
+      "text": "Jawabannya sudah aku siapkan di sini. Coba dilihat, lalu pilih mau lanjut ke mana.",
+      "file": "id-reply.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 47088,
+      "sha256": "86fe8dfa7574d7566602bc42df31fccd84468e7ccd6122637ab556e433d75ebc"
+    },
+    {
+      "key": "error",
+      "language": "id",
+      "text": "Sebentar, ya. Ada yang perlu dibetulkan dulu sebelum kita lanjut.",
+      "file": "id-error.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 39888,
+      "sha256": "ec7b05b5294e0aceafcde83c4c6fd4caded00a70b16cd728182cc7477029e7b7"
+    },
+    {
+      "key": "taskDone",
+      "language": "id",
+      "text": "Langkah ini sudah selesai! Selanjutnya mau kita cek apa?",
+      "file": "id-taskDone.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 35424,
+      "sha256": "479c0781ef31ac75f5e36697075a16e92cc98499205e6f0d61f4e9c81e2a4b4f"
+    },
+    {
+      "key": "saved",
+      "language": "id",
+      "text": "Sudah tersimpan! Bisa kamu periksa sekarang, atau lanjutkan nanti.",
+      "file": "id-saved.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 40464,
+      "sha256": "1942b3298ca9387dbac62c756043d082fe74af58356e0d47171c5ed60072fa7d"
+    },
+    {
+      "key": "language",
+      "language": "id",
+      "text": "Kita lanjut pakai Bahasa Indonesia, ya. Mau mulai dari mana?",
+      "file": "id-language.mp3",
+      "voice": "id-ID-GadisNeural",
+      "bytes": 39744,
+      "sha256": "5c590c08b1d616c53936176079f40c17fd81b594d70b1b2beb6a5fe04880c22b"
+    },
+    {
+      "key": "hello",
+      "language": "zh",
+      "text": "嗨，我是阿特拉斯，你在采购平台的小助手。我们先做什么呢？",
+      "file": "zh-hello.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 37152,
+      "sha256": "d116d21a98506a36e7ea837664464532c00e32013c1156fce331d06fa37526d8"
+    },
+    {
+      "key": "ready",
+      "language": "zh",
+      "text": "准备好啦！有什么想让我帮忙的吗？",
+      "file": "zh-ready.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 21600,
+      "sha256": "7dc1431a79a8bccfb519768a2043860773a49bb631a449a60ee2f2ffe3326937"
+    },
+    {
+      "key": "question",
+      "language": "zh",
+      "text": "好呀，我在听。你可以在这里输入自己的问题。",
+      "file": "zh-question.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 29232,
+      "sha256": "20cb523ae5a56c87600d8797a591a869318e1b47ac74a2ffbf46a44c25bda323"
+    },
+    {
+      "key": "choose",
+      "language": "zh",
+      "text": "我们先选个入口吧。你是集团员工，还是供应商呢？",
+      "file": "zh-choose.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 30096,
+      "sha256": "b29abaa08d40f9e09861c3eacaf053611d96537047d31341dd5841a22e16de4d"
+    },
+    {
+      "key": "employee",
+      "language": "zh",
+      "text": "欢迎！我可以协助申请、物料编码、价格和预算。你想先了解哪一项？",
+      "file": "zh-employee.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 44208,
+      "sha256": "ce0fade6c09e02b4bcca6b9762ca521bdb8510946e28f605224af56470873f99"
+    },
+    {
+      "key": "vendor",
+      "language": "zh",
+      "text": "欢迎！我可以协助注册、报价、文件和订单进度。我们从哪里开始呢？",
+      "file": "zh-vendor.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 44784,
+      "sha256": "a374944ffb0656a9da0fd6b74105e4d6b3e0000fae632979afa76456608820ff"
+    },
+    {
+      "key": "registration",
+      "language": "zh",
+      "text": "一起准备注册资料吧。先选择企业类型，再按对应清单补齐文件。",
+      "file": "zh-registration.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 40464,
+      "sha256": "a37e7860f984474e2cf3be5a40e017345c3e9668d27e9a32a13e2539af646c7d"
+    },
+    {
+      "key": "login",
+      "language": "zh",
+      "text": "请用已注册的邮箱继续登录，我会陪你完成下一步。",
+      "file": "zh-login.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 27648,
+      "sha256": "90047613489665f039818d7e6bbee6574643303a19615515b780df9d48581389"
+    },
+    {
+      "key": "ticket",
+      "language": "zh",
+      "text": "一起准备申请吧。选择类别，填写必填项，再检查后提交。",
+      "file": "zh-ticket.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 37728,
+      "sha256": "c269bb5fdf459b9b1113a4c0b89afd956fe96faa9a356324d6564f7d277e491c"
+    },
+    {
+      "key": "itemcode",
+      "language": "zh",
+      "text": "先查一下物料目录吧。如果没有合适的编码，我可以指导新编码申请。",
+      "file": "zh-itemcode.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 38880,
+      "sha256": "aae00838ae491fd45ab20d5976b892bf2eafa89064071869bb8fa080004f8bef"
+    },
+    {
+      "key": "prices",
+      "language": "zh",
+      "text": "我们先看看已有的价格记录吧，这样下一步更有依据。",
+      "file": "zh-prices.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 27792,
+      "sha256": "02513c9d4b42df1833b13efa9be7ab5e3ef3b4886308024b59e4a83516880a7d"
+    },
+    {
+      "key": "budget",
+      "language": "zh",
+      "text": "一起编制预算吧。选择用途，检查工作清单，再确认数量和价格。",
+      "file": "zh-budget.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 41040,
+      "sha256": "9d20012c1b95288e03e1fe390267219a8ce3c4ec477687f490b119e210fd6923"
+    },
+    {
+      "key": "division",
+      "language": "zh",
+      "text": "我们看看部门待办吧，先选最需要处理的事项。",
+      "file": "zh-division.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 25488,
+      "sha256": "966fe6862e6adc98525b9008f5a04eb1d1213a3e6263f01aba5fe27d308f4857"
+    },
+    {
+      "key": "quote",
+      "language": "zh",
+      "text": "打开分配给贵公司的询价邀请吧。核对范围、价格和文件后，再提交报价。",
+      "file": "zh-quote.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 44784,
+      "sha256": "25b33e6ac15322d6ced81dbbb22918d02e9a74bd9968f56fa3f382a549c01d70"
+    },
+    {
+      "key": "invoice",
+      "language": "zh",
+      "text": "一起核对发票和支持文件，看看是否符合关联订单的要求。",
+      "file": "zh-invoice.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 34704,
+      "sha256": "96cde85af895510146114da22cb207162a6fd7243440fe73dc345c96727d7f51"
+    },
+    {
+      "key": "tracking",
+      "language": "zh",
+      "text": "请用已记录的申请或订单编号。我们一起看看进度和下一步。",
+      "file": "zh-tracking.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 36864,
+      "sha256": "7164259a0774b3f3e6edd2e4fde66d0696968453fc1093716ab0e18eeb63d089"
+    },
+    {
+      "key": "approval",
+      "language": "zh",
+      "text": "我可以帮你检查下一步，最终审批仍由平台中的授权人员决定。",
+      "file": "zh-approval.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 34560,
+      "sha256": "13f4c1f546e4de32637c5d5c0ac62350098b318312e10ad0dbc7171865b2b39e"
+    },
+    {
+      "key": "wbs",
+      "language": "zh",
+      "text": "如需保密举报，请使用举报表单，并妥善保存参考编号和访问码。",
+      "file": "zh-wbs.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 38592,
+      "sha256": "79f83c593b5f5ce0cb011960d09b178fd5d11c7e70bb78e55d7c23b4bf459df0"
+    },
+    {
+      "key": "summaryPending",
+      "language": "zh",
+      "text": "摘要准备好了，还有待跟进事项。要从第一项开始吗？",
+      "file": "zh-summaryPending.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 32112,
+      "sha256": "177baea243577efeb2118fd3fc61bea97082ac99101b86d22c17180d662af82d"
+    },
+    {
+      "key": "summaryClear",
+      "language": "zh",
+      "text": "这一页没有待跟进事项。接下来想处理什么呢？",
+      "file": "zh-summaryClear.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 28368,
+      "sha256": "6b7de423dd46d22140a6f30e12d278e7093cfaf97c54d689f6843a9b886b5db0"
+    },
+    {
+      "key": "budgetMissing",
+      "language": "zh",
+      "text": "预算结构准备好了，还有部分价格需要确认。我们一起检查吧。",
+      "file": "zh-budgetMissing.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 36432,
+      "sha256": "3943d83659f2661e78b4097251cae7a986e23b2b8e7122d115b591783ec31b66"
+    },
+    {
+      "key": "budgetReady",
+      "language": "zh",
+      "text": "预算检查准备好了。我们看看交期、采购优先级和可能的瓶颈吧。",
+      "file": "zh-budgetReady.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 39168,
+      "sha256": "801959d62aa190bbf8aa4cb13ea4cfc01423089caa7658a2e38af748080c4943"
+    },
+    {
+      "key": "documentIssues",
+      "language": "zh",
+      "text": "文件检查准备好了，有几项需要注意。要一起看看发现的问题吗？",
+      "file": "zh-documentIssues.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 37152,
+      "sha256": "f43e00dfc85bb0e64dc6312524c7bdefa95f136f7340ba7cbbde1d9ff9b478c4"
+    },
+    {
+      "key": "documentReady",
+      "language": "zh",
+      "text": "文件摘要准备好了。我们对照一下关联要求吧。",
+      "file": "zh-documentReady.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 27072,
+      "sha256": "b1ca32c32eff97c27f8f83a30e2b9f9d959cad9a76aa8160c408d5fb88d4f7c9"
+    },
+    {
+      "key": "reply",
+      "language": "zh",
+      "text": "答案已经整理在这里啦。看看之后，再选你想继续的方向吧。",
+      "file": "zh-reply.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 34704,
+      "sha256": "96abc76f976db6cfc6b72e4454f2f389410099a01815f243169bac00384e07a4"
+    },
+    {
+      "key": "error",
+      "language": "zh",
+      "text": "先等一下哦，有一处需要改好才能继续。",
+      "file": "zh-error.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 22608,
+      "sha256": "9d7dd51a6691832cf79d1ba44ce3c97d5234d54a1f552c8a46ae49a78de359d2"
+    },
+    {
+      "key": "taskDone",
+      "language": "zh",
+      "text": "这一步完成啦！接下来看看什么呢？",
+      "file": "zh-taskDone.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 21600,
+      "sha256": "08774e47d4897611ec458a00d49bbdb227b47845ea65ac8d9069dd9183b6067a"
+    },
+    {
+      "key": "saved",
+      "language": "zh",
+      "text": "已保存！现在可以检查，也可以稍后继续。",
+      "file": "zh-saved.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 27360,
+      "sha256": "8e520cb51e27fead683cd0bb1ef0923edd0c6fc0497458f01d21abf6736cc00f"
+    },
+    {
+      "key": "language",
+      "language": "zh",
+      "text": "接下来我们用普通话交流吧。你想先做什么？",
+      "file": "zh-language.mp3",
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "bytes": 27360,
+      "sha256": "8684288857acd882dcef33236a6013ae7b2fd8cbe63d60a7577b885523b3c9f3"
+    }
+  ]
+}
