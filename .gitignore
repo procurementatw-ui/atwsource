@@ -1,0 +1,8 @@
+node_modules/
+.vercel/
+.env
+.env.*
+!.env.example
+supabase/.temp/
+data/*.json
+!data/example.json
